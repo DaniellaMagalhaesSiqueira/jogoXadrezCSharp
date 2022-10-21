@@ -5,8 +5,8 @@ namespace JogoXadrez {
     class Program {
         static void Main(string[] args) {
 
-            Tabuleiro tab = new Tabuleiro(12, 12);
-            Console.WriteLine(tab.linhas + " _ " + tab.colunas);
+            Tabuleiro tab = new Tabuleiro(8, 8);
+            Tela.imprimirTabuleiro(tab);
         }
     }
 }
